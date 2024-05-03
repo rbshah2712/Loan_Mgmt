@@ -25,9 +25,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/css/mdi/css/materialdesignicons.min.css",
+              "src/assets/css/flag-icon-css/css/flag-icons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+              "src/assets/js/chart.js/chart.umd.js",
+              "src/assets/js/hoverable-collapse.js",
+              "src/assets/js/off-canvas.js"
+              
+             
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

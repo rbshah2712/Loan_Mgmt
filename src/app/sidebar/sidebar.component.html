@@ -1,0 +1,57 @@
+
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <ul class="nav">
+      <li class="nav-item nav-category">Main</li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" [routerLink]="'dashboard'">
+          <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
+          <span class="menu-title">Dashboard</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'customers'" aria-expanded="false" aria-controls="ui-basic">
+          <span class="icon-bg"><i class="mdi mdi-contacts menu-icon"></i></span>
+          <span class="menu-title">Customers</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'loans'" aria-expanded="false" aria-controls="tables">
+          <span class="icon-bg"><i class="mdi mdi-view-sequential-outline menu-icon"></i></span>
+          <span class="menu-title">Loans</span>
+        </a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'payments'" aria-expanded="false" aria-controls="icons">
+          <span class="icon-bg"><i class="mdi mdi-contactless-payment menu-icon"></i></span>
+          <span class="menu-title">Payments</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'invoices'" aria-expanded="false" aria-controls="forms">
+          <span class="icon-bg"><i class="mdi mdi-invoice menu-icon"></i></span>
+          <span class="menu-title">Invoices</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'loan-types'" aria-expanded="false" aria-controls="charts">
+          <span class="icon-bg"><i class="mdi mdi-invoice-list menu-icon"></i></span>
+          <span class="menu-title">Loan Plans</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'reports'" aria-expanded="false" aria-controls="tables">
+          <span class="icon-bg"><i class="mdi mdi-view-sequential-outline menu-icon"></i></span>
+          <span class="menu-title">Reports</span>
+        </a>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" routerLinkActive="active" [routerLink]="'settings'" aria-expanded="false" aria-controls="tables">
+          <span class="icon-bg"><i class="mdi mdi-weather-sunny menu-icon"></i></span>
+          <span class="menu-title">Settings</span>
+        </a>
+
+      </li>
+    </ul>
+  </nav>
